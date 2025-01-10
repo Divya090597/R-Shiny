@@ -11,6 +11,8 @@ library(tools)
 # Increase file upload limit to 500MB
 options(shiny.maxRequestSize = 500*1024^2)
 
+# Define UI ---------------------------------------------------------------
+
 ui <- fluidPage(
   theme = shinytheme("united"),
   navbarPage(
@@ -81,6 +83,8 @@ ui <- fluidPage(
     )
   )
 )
+
+# Define server function ---------------------------------------------------------------
 
 server <- function(input, output, session) {
   rv <- reactiveValues(metadata = NULL, expression_matrix = NULL, seurat_object = NULL, annotation_model = NULL, dge_results = NULL)
@@ -211,6 +215,8 @@ server <- function(input, output, session) {
   })
 }
 
-# Create the app
+
+# Create the app ---------------------------------------------------------------
+
 
 shinyApp(ui = ui, server = server)
