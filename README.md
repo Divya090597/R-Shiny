@@ -2,7 +2,8 @@
 
 ## Structure of Shiny app ##
 
-3 components - User Interface (Ui.R)
+3 components 
+             - User Interface (Ui.R)
 
              - Server function (server.R)
              
