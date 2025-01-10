@@ -24,7 +24,7 @@ Upload Expression Matrix: Handles gene expression data (genes as rows, cells as 
 
 Upload Seurat Object: Users can upload a .rds file representing a preprocessed Seurat object
 
-*Intention*: Provide flexibility in data inputs, supporting both standard formats and advanced data objects (Seurat).
+**Intention**: Provide flexibility in data inputs, supporting both standard formats and advanced data objects (Seurat).
 
 
 ## Differential Gene Expression Analysis ##
