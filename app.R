@@ -1,6 +1,4 @@
-####################################
-# Data Professor                   #
-# http://youtube.com/dataprofessor #
+
 # http://github.com/dataprofessor  #
 ####################################
 
