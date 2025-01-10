@@ -27,4 +27,12 @@ Upload Seurat Object: Users can upload a .rds file representing a preprocessed S
 *Intention*: Provide flexibility in data inputs, supporting both standard formats and advanced data objects (Seurat).
 
 
+## Differential Gene Expression Analysis ##
 
+Dynamic Group Selection: Users can select a metadata column to define groupings (e.g., treatment vs. control) and then choose two groups for comparison.
+
+DGE Calculation: The app runs FindMarkers() from the Seurat package, comparing the two selected groups to identify differentially expressed genes.
+
+Visualization: Results are displayed in a table and as a volcano plot (showing log fold-change vs. significance).
+
+**Intention**: Facilitate group comparisons and provide insights into the biological significance of gene expression changes.
